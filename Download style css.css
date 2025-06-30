@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f9f4;
+  color: #333;
+}
+
+header {
+  background: #2e7d32;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1524594154900-b2e0f6a7de74?auto=format&fit=crop&w=1600&q=60') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #66bb6a;
+  color: #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.product {
+  background: #e8f5e9;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #388e3c;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background: #2e7d32;
+  color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+}
